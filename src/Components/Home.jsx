@@ -5,8 +5,11 @@ import Pricing from './Pricing'
 export default function Home() {
     return (
         <>
+        <hr/>
         <BusinessHours/>
+        <hr/>
         <Pricing />
+        <hr/>
         </>
     )
 }
