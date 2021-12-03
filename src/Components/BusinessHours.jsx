@@ -1,8 +1,9 @@
 import React from 'react'
+import './Style/business_hours.css'
 
 export default function BusinessHours() {
     return (
-        <section>
+        <section className="business_hours">
             <h2>Business Hours</h2>
 
             <pre>

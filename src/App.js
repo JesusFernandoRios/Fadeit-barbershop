@@ -4,19 +4,19 @@ import Pricing from './Components/Pricing'
 
 import './App.css';
 import {BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import BusinessHours from './Components/BusinessHours';
 
 function App() {
   return (
     <Router>
        <header className="App">
-          <p>
-            Fade it barbershop
-          </p>
           <img src={barbershopLogo} alt="Barbershop Logo"/>
       </header>
 
+      <Home/>
+
       <Routes>
-        <Route path="/" elements={<Home/>}/>
+        <Route  exact path="/" elements={<Home/>}/>
         <Route path="/pricing" element={<Pricing/>}/>
       </Routes>
       

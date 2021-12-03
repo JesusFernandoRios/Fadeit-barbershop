@@ -1,9 +1,9 @@
 import React from 'react'
-import BusinessHours from './BusinessHours'
+import './Style/pricing.css'
 
 export default function Pricing() {
     return (
-        <section>
+        <section className="pricing">
             <div className="services">
                 <h2>Services</h2>
 
@@ -24,8 +24,6 @@ export default function Pricing() {
                 <p>The Fade It Way</p>
                 <p>Design with any Cut</p>
             </div>
-
-            <BusinessHours/>
             
         </section>
     )
