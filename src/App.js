@@ -4,7 +4,6 @@ import Pricing from './Components/Pricing'
 
 import './App.css';
 import {BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import BusinessHours from './Components/BusinessHours';
 
 function App() {
   return (
