@@ -1,4 +1,5 @@
 import React from 'react'
+import AppointmentButton from './AppointmentButton'
 import BusinessHours from './BusinessHours'
 import Pricing from './Pricing'
 import Safety from './Safety'
@@ -9,6 +10,7 @@ export default function Home() {
         <>
 
         <SocialMedia/>
+        <AppointmentButton/>
         <hr/>
         <BusinessHours/>
         <hr/>
