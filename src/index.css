@@ -13,6 +13,13 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
 ul li::before {
   content: "\2022";
   color: white;

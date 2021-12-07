@@ -10,7 +10,6 @@ export default function Home() {
         <>
 
         <SocialMedia/>
-        <AppointmentButton/>
         <hr/>
         <BusinessHours/>
         <hr/>

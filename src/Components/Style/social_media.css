@@ -2,10 +2,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .wrapper {
-    display: inline-flex;
-    width: 100%;
-    padding-left: 35%;
-    padding-right: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.social_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social_check {
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.hidden {
+    display: none;
 }
   
 .icon {
@@ -73,17 +90,17 @@
     color: #ffffff;
 }
   
-.wrapper .twitter:hover,
-.wrapper .twitter:hover .tooltip,
-.wrapper .twitter:hover .tooltip::before {
-    background-color: #46c1f6;
-    color: #ffffff;
+.wrapper .tiktok:hover,
+.wrapper .tiktok:hover .tooltip,
+.wrapper .tiktok:hover .tooltip::before {
+    background-color: white;
+    color: #f70067;
 }
   
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
-    background-color: #e1306c;
+    background-color: #f50455;
     color: #ffffff;
 }
   

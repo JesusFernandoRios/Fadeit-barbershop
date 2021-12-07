@@ -4,22 +4,26 @@ import './Style/social_media.css'
 export default function SocialMedia() {
     return (
         <div class="wrapper">
-            <div class="icon facebook">
-                <div class="tooltip">Facebook</div>
-                <span><i class="fab fa-facebook-f"></i></span>
+            
+            <div className="social_check">
+                <p>Check us out on</p>
             </div>
-            <div class="icon twitter">
-                <div class="tooltip">Twitter</div>
-                <span><i class="fab fa-twitter"></i></span>
+
+            <div className="social_links">
+                <div class="icon facebook">
+                    <div class="tooltip">Facebook</div>
+                    <a href="https://www.facebook.com/Fade_It_Barbershop-105672805150183" rel="noreferrer" target="_blank" class="fab fa-facebook-f"><span className="hidden">Facebook</span></a>
+                </div>
+                <div class="icon tiktok">
+                    <div class="tooltip">TikTok</div>
+                    <a href="https://www.tiktok.com/@fadeitbarbershop?" target="_blank"  rel="noreferrer" class="fab fa-tiktok"><span className="hidden">TikTok</span></a>
+                </div>
+                <div class="icon instagram">
+                    <div class="tooltip">Instagram</div>
+                    <a href="https://www.instagram.com/fade_it_barbershop/" target="_blank" rel="noreferrer" class="fab fa-instagram"><span className="hidden">Instagram</span></a>
+                </div> 
             </div>
-            <div class="icon instagram">
-                <div class="tooltip">Instagram</div>
-                <span><i class="fab fa-instagram"></i></span>
-            </div>
-            <div class="icon youtube">
-                <div class="tooltip">Youtube</div>
-                <span><i class="fab fa-youtube"></i></span>
-            </div>
+            
         </div>
     )
 }

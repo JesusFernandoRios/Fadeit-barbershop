@@ -1,3 +1,11 @@
+.appointment_button {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  justify-content: center;
+  padding: 30px;
+}
+
 .bn3637 {
     display: inline-flex;
     align-items: center;
