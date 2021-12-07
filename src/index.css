@@ -5,6 +5,10 @@ body {
   color: white;
 }
 
+.root {
+  width: 100%;
+}
+
 hr {
   width: 80%;
 }

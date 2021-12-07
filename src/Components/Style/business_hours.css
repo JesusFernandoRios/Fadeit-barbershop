@@ -1,6 +1,7 @@
 .business_hours {
     text-align: center;
     font-family: 'Reem Kufi', sans-serif;
+    width: 100%;
 }
 
 .business_hours h2 {
