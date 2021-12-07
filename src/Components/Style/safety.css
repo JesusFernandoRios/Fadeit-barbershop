@@ -1,0 +1,17 @@
+.safety {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.safety h2 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.safety ul {
+    list-style: none;
+}
+
+.safety li {
+    font-family: 'Reem Kufi', sans-serif;
+}
