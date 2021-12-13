@@ -110,4 +110,9 @@
     background-color: #de463b;
     color: #ffffff;
 }
-  
+
+@media only screen and (max-width: 480px){
+    .tooltip {
+        display: none;
+    }
+}
