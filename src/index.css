@@ -3,6 +3,7 @@ body {
   padding: 0;
   background-color: black;
   color: white;
+  
 }
 
 .root {
@@ -33,17 +34,7 @@ ul li::before {
   margin-left: -1em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
-
-@media only screen and (max-width: 768px){
-  body {
-    width: fit-content;
-  }
-  .root {
-    width: 90%;
-  }
+@media only screen and (max-width: 480px){
+  
 }
