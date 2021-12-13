@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Fadeit-barbershop/static/css/main.f1e7fd13.chunk.css",
-    "main.js": "/Fadeit-barbershop/static/js/main.722aa037.chunk.js",
-    "main.js.map": "/Fadeit-barbershop/static/js/main.722aa037.chunk.js.map",
-    "runtime-main.js": "/Fadeit-barbershop/static/js/runtime-main.230ba56a.js",
-    "runtime-main.js.map": "/Fadeit-barbershop/static/js/runtime-main.230ba56a.js.map",
-    "static/js/2.04fa5dad.chunk.js": "/Fadeit-barbershop/static/js/2.04fa5dad.chunk.js",
-    "static/js/2.04fa5dad.chunk.js.map": "/Fadeit-barbershop/static/js/2.04fa5dad.chunk.js.map",
-    "static/js/3.4d86169e.chunk.js": "/Fadeit-barbershop/static/js/3.4d86169e.chunk.js",
-    "static/js/3.4d86169e.chunk.js.map": "/Fadeit-barbershop/static/js/3.4d86169e.chunk.js.map",
+    "main.css": "/Fadeit-barbershop/static/css/main.e46cff41.chunk.css",
+    "main.js": "/Fadeit-barbershop/static/js/main.995488b7.chunk.js",
+    "main.js.map": "/Fadeit-barbershop/static/js/main.995488b7.chunk.js.map",
+    "runtime-main.js": "/Fadeit-barbershop/static/js/runtime-main.29f28336.js",
+    "runtime-main.js.map": "/Fadeit-barbershop/static/js/runtime-main.29f28336.js.map",
+    "static/js/2.2fa1155d.chunk.js": "/Fadeit-barbershop/static/js/2.2fa1155d.chunk.js",
+    "static/js/2.2fa1155d.chunk.js.map": "/Fadeit-barbershop/static/js/2.2fa1155d.chunk.js.map",
+    "static/js/3.824d7786.chunk.js": "/Fadeit-barbershop/static/js/3.824d7786.chunk.js",
+    "static/js/3.824d7786.chunk.js.map": "/Fadeit-barbershop/static/js/3.824d7786.chunk.js.map",
     "index.html": "/Fadeit-barbershop/index.html",
-    "static/css/main.f1e7fd13.chunk.css.map": "/Fadeit-barbershop/static/css/main.f1e7fd13.chunk.css.map",
-    "static/js/2.04fa5dad.chunk.js.LICENSE.txt": "/Fadeit-barbershop/static/js/2.04fa5dad.chunk.js.LICENSE.txt",
+    "static/css/main.e46cff41.chunk.css.map": "/Fadeit-barbershop/static/css/main.e46cff41.chunk.css.map",
+    "static/js/2.2fa1155d.chunk.js.LICENSE.txt": "/Fadeit-barbershop/static/js/2.2fa1155d.chunk.js.LICENSE.txt",
     "static/media/SampleImage1.1a4f8cb5.png": "/Fadeit-barbershop/static/media/SampleImage1.1a4f8cb5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.230ba56a.js",
-    "static/js/2.04fa5dad.chunk.js",
-    "static/css/main.f1e7fd13.chunk.css",
-    "static/js/main.722aa037.chunk.js"
+    "static/js/runtime-main.29f28336.js",
+    "static/js/2.2fa1155d.chunk.js",
+    "static/css/main.e46cff41.chunk.css",
+    "static/js/main.995488b7.chunk.js"
   ]
 }
