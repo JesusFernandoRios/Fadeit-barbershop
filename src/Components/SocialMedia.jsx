@@ -5,9 +5,9 @@ export default function SocialMedia() {
     return (
         <div class="wrapper">
             
-            <div className="social_check">
+            {/* <div className="social_check">
                 <p>Check us out on</p>
-            </div>
+            </div> */}
 
             <div className="social_links">
                 <div class="icon facebook">

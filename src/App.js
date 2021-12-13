@@ -4,15 +4,17 @@ import Pricing from './Components/Pricing'
 
 import './App.css';
 import {BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import AppointmentButton from './Components/AppointmentButton';
 
 function App() {
   return (
     <Router>
        <header className="App">
-          <img src={barbershopLogo} alt="Barbershop Logo"/>
+          <img className="barber-logo" src={barbershopLogo} alt="Barbershop Logo"/>
       </header>
 
       <Home/>
+      <AppointmentButton/>
 
       <Routes>
         <Route  exact path="/" elements={<Home/>}/>

@@ -6,10 +6,26 @@ import SocialMedia from './SocialMedia'
 import ImageGallery from 'react-image-gallery'
 
 export default function Home() {
+
+    const images = [
+        {
+          original: 'https://picsum.photos/id/1018/1000/600/',
+          thumbnail: 'https://picsum.photos/id/1018/250/150/',
+        },
+        {
+          original: 'https://picsum.photos/id/1015/1000/600/',
+          thumbnail: 'https://picsum.photos/id/1015/250/150/',
+        },
+        {
+          original: 'https://picsum.photos/id/1019/1000/600/',
+          thumbnail: 'https://picsum.photos/id/1019/250/150/',
+        },
+      ];
+
     return (
         <>
 
-        <SocialMedia/>
+        {/* <ImageGallery items={images}/> */}
         <hr/>
         <BusinessHours/>
         <hr/>
