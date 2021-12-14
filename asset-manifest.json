@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/Fadeit-barbershop/static/css/main.9912c3e3.chunk.css",
-    "main.js": "/Fadeit-barbershop/static/js/main.1bb18602.chunk.js",
-    "main.js.map": "/Fadeit-barbershop/static/js/main.1bb18602.chunk.js.map",
+    "main.css": "/Fadeit-barbershop/static/css/main.88eb91f9.chunk.css",
+    "main.js": "/Fadeit-barbershop/static/js/main.95f8a51a.chunk.js",
+    "main.js.map": "/Fadeit-barbershop/static/js/main.95f8a51a.chunk.js.map",
     "runtime-main.js": "/Fadeit-barbershop/static/js/runtime-main.29f28336.js",
     "runtime-main.js.map": "/Fadeit-barbershop/static/js/runtime-main.29f28336.js.map",
-    "static/js/2.2fa1155d.chunk.js": "/Fadeit-barbershop/static/js/2.2fa1155d.chunk.js",
-    "static/js/2.2fa1155d.chunk.js.map": "/Fadeit-barbershop/static/js/2.2fa1155d.chunk.js.map",
+    "static/css/2.1935a16d.chunk.css": "/Fadeit-barbershop/static/css/2.1935a16d.chunk.css",
+    "static/js/2.71d55a62.chunk.js": "/Fadeit-barbershop/static/js/2.71d55a62.chunk.js",
+    "static/js/2.71d55a62.chunk.js.map": "/Fadeit-barbershop/static/js/2.71d55a62.chunk.js.map",
     "static/js/3.824d7786.chunk.js": "/Fadeit-barbershop/static/js/3.824d7786.chunk.js",
     "static/js/3.824d7786.chunk.js.map": "/Fadeit-barbershop/static/js/3.824d7786.chunk.js.map",
     "index.html": "/Fadeit-barbershop/index.html",
-    "static/css/main.9912c3e3.chunk.css.map": "/Fadeit-barbershop/static/css/main.9912c3e3.chunk.css.map",
-    "static/js/2.2fa1155d.chunk.js.LICENSE.txt": "/Fadeit-barbershop/static/js/2.2fa1155d.chunk.js.LICENSE.txt",
+    "static/css/2.1935a16d.chunk.css.map": "/Fadeit-barbershop/static/css/2.1935a16d.chunk.css.map",
+    "static/css/main.88eb91f9.chunk.css.map": "/Fadeit-barbershop/static/css/main.88eb91f9.chunk.css.map",
+    "static/js/2.71d55a62.chunk.js.LICENSE.txt": "/Fadeit-barbershop/static/js/2.71d55a62.chunk.js.LICENSE.txt",
     "static/media/SampleImage1.1a4f8cb5.png": "/Fadeit-barbershop/static/media/SampleImage1.1a4f8cb5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.29f28336.js",
-    "static/js/2.2fa1155d.chunk.js",
-    "static/css/main.9912c3e3.chunk.css",
-    "static/js/main.1bb18602.chunk.js"
+    "static/css/2.1935a16d.chunk.css",
+    "static/js/2.71d55a62.chunk.js",
+    "static/css/main.88eb91f9.chunk.css",
+    "static/js/main.95f8a51a.chunk.js"
   ]
 }
