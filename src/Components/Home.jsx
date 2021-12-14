@@ -5,6 +5,7 @@ import Safety from './Safety'
 import SocialMedia from './SocialMedia'
 import ImageGallery from 'react-image-gallery'
 
+
 export default function Home() {
 
     const images = [
@@ -28,6 +29,8 @@ export default function Home() {
         {/* <ImageGallery items={images}/> */}
         <hr/>
         <BusinessHours/>
+        <hr/>
+        <ImageGallery items={images} showNav={false}/>
         <hr/>
         <Pricing />
         <hr/>

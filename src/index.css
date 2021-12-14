@@ -1,11 +1,15 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 body {
   margin: 0;
   padding: 0;
   background-color: black;
   color: white;
-  width: max-content;
 }
 
+.image-gallery {
+  margin-top: 2%;
+}
 
 hr {
   width: 80%;
@@ -33,8 +37,5 @@ ul li::before {
 
 
 @media only screen and (max-width: 480px){
-  body {
-    width: 100%;
-    height: 100%;
-  }
+  
 }
