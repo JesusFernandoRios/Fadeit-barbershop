@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.location_information {
+  font-family: 'Reem Kufi', sans-serif
+}
+.location_information h2 {
+  font-family: 'Satisfy', cursive
+}
+
 @media only screen and (max-width: 480px) {
   .barber-logo {
     width: 70%;

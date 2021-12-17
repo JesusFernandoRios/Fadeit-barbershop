@@ -26,7 +26,6 @@ export default function Home() {
     return (
         <>
 
-        {/* <ImageGallery items={images}/> */}
         <hr/>
         <BusinessHours/>
         <hr/>
