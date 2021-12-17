@@ -7,22 +7,31 @@ export default function Pricing() {
             <div className="services">
                 <h2>Services</h2>
 
-                <p>Regular Cut</p>
-                <p>Regular Cut with Beard Cleaning</p>
-                <p>Hair Cut (Skin)</p>
+                <p>Regular Cut <span className='prices'>$20</span>
+                </p>
+                <p>Regular Cut with Beard Cleaning <span className='prices'>$20</span>
+                </p>
+                <p>Hair Cut (Skin) <span className='prices'>$20</span>
+                </p>
 
             </div>
 
             <div className="other_services">
                 <h2>Other Services</h2>
 
-                <p>Hot Towel Shave (Razor)</p>
-                <p>Beard Trim</p>
-                <p>Hair Cur (Skin) & Beard with Razor</p>
-                <p>Facial</p>
-                <p>Black mask with any cut</p>
-                <p>The Fade It Way</p>
-                <p>Design with any Cut</p>
+                <p>Hot Towel Shave (Razor) <span className='prices'>$20</span>
+                </p>
+                <p>Beard Trim <span className='prices'>$20</span>
+                </p>
+                <p>Hair Cur (Skin) & Beard with Razor <span className='prices'>$20</span>
+                </p>
+                <p>Facial <span className='prices'>$20</span></p>
+                <p>Black mask with any cut <span className='prices'>$20</span>
+                </p>
+                <p>The Fade It Way <span className='prices'>$20</span>
+                </p>
+                <p>Design with any Cut <span className='prices'>$20</span>
+                </p>
             </div>
             
         </section>
