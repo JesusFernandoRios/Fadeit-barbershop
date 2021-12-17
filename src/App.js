@@ -1,9 +1,9 @@
 import barbershopLogo from './Images/SampleImage1.png'
 import Home from './Components/Home'
-import Pricing from './Components/Pricing'
+
 
 import './App.css';
-import {BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import {BrowserRouter as Router} from "react-router-dom"
 import AppointmentButton from './Components/AppointmentButton';
 
 function App() {
@@ -22,10 +22,7 @@ function App() {
       <Home/>
       <AppointmentButton/>
 
-      <Routes>
-        <Route  exact path="/" elements={<Home/>}/>
-        <Route path="/pricing" element={<Pricing/>}/>
-      </Routes>
+      
       
     </Router>
      

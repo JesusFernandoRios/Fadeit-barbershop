@@ -9,9 +9,9 @@ export default function Pricing() {
 
                 <p>Regular Cut <span className='prices'>$20</span>
                 </p>
-                <p>Regular Cut with Beard Cleaning <span className='prices'>$20</span>
+                <p>Regular Cut with Beard Cleaning <span className='prices'>$30</span>
                 </p>
-                <p>Hair Cut (Skin) <span className='prices'>$20</span>
+                <p>Hair Cut (Skin) <span className='prices'>$25</span>
                 </p>
 
             </div>
@@ -19,18 +19,19 @@ export default function Pricing() {
             <div className="other_services">
                 <h2>Other Services</h2>
 
-                <p>Hot Towel Shave (Razor) <span className='prices'>$20</span>
+                <p>Hot Towel Shave (Razor) <span className='prices'>$25</span>
                 </p>
                 <p>Beard Trim <span className='prices'>$20</span>
                 </p>
-                <p>Hair Cur (Skin) & Beard with Razor <span className='prices'>$20</span>
+                <p>Hair Cur (Skin) & Beard with Razor <span className='prices'>$35</span>
                 </p>
-                <p>Facial <span className='prices'>$20</span></p>
-                <p>Black mask with any cut <span className='prices'>$20</span>
+                <p>Facial <span className='prices'>$25</span>
                 </p>
-                <p>The Fade It Way <span className='prices'>$20</span>
+                <p>Black mask with any cut <span className='prices'>$10</span>
                 </p>
-                <p>Design with any Cut <span className='prices'>$20</span>
+                <p>The Fade It Way <span className='prices'>$50</span>
+                </p>
+                <p>Design with any Cut <span className='prices'>$10</span>
                 </p>
             </div>
             
