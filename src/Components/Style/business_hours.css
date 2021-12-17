@@ -1,13 +1,25 @@
 .business_hours {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Reem Kufi', sans-serif;
-    width: 100%;
+    width: 20%;
 }
 
 .business_hours h2 {
+    text-align: center;
     font-family: 'Satisfy';
 }
 
 .business_hours p {
     font-family: 'Reem Kufi', sans-serif;
+}
+
+.time {
+    float: right;
+}
+
+@media only screen and (max-width: 480px) {
+    .business_hours {
+        width: 90%;
+    }
 }
