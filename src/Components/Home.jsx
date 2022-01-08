@@ -13,6 +13,18 @@ export default function Home() {
           thumbnail: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/4.jpg',
         },
         {
+          original: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/img-7.jpg',
+          thumbnail: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/img-7.jpg',
+        },
+        {
+          original: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/img-8.jpg',
+          thumbnail: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/img-8.jpg',
+        },
+        {
+          original: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/img-6.jpg',
+          thumbnail: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/img-6.jpg',
+        },
+        {
           original: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/2.jpg',
           thumbnail: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/2.jpg',
         },
@@ -27,16 +39,16 @@ export default function Home() {
         {
           original: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/img-1.jpg',
           thumbnail: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/img-1.jpg',
+          
         },
       ];
 
     return (
         <>
 
+        <ImageGallery items={images} showNav={true} lazyLoad={true} showThumbnails={false} showPlayButton={false} showFullscreenButton={false} />
         <hr/>
         <BusinessHours/>
-        <hr/>
-        <ImageGallery items={images} showNav={false}/>
         <hr/>
         <Pricing />
         <hr/>
