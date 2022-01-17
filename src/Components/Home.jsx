@@ -45,8 +45,9 @@ export default function Home() {
 
     return (
         <>
-
-        <ImageGallery items={images} showNav={true} lazyLoad={true} showThumbnails={false} showPlayButton={false} showFullscreenButton={false} />
+        
+        <hr/>
+        <ImageGallery items={images} showNav={false} lazyLoad={false} showThumbnails={true} showPlayButton={false} showFullscreenButton={false} />
         <hr/>
         <BusinessHours/>
         <hr/>
