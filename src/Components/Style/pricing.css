@@ -1,7 +1,9 @@
 .pricing {
-    
-    padding-left: 10%;
-    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .pricing h2 {
@@ -15,10 +17,25 @@
     float: right;
 }
 
+.services {
+    width: 40%;
+}
+
+.other_services {
+    width: 40%;
+}
+
 
 @media only screen and (max-width: 480px) {
     .pricing {
+        display: block;
         padding-left: 5%;
         padding-right: 5%;
+        margin: 0;
     }
+    .services , .other_services {
+        width: 100% !important;
+    }
+
+
 }
