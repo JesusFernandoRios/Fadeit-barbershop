@@ -1,3 +1,4 @@
+import React from 'react'
 import barbershopLogo from './Images/SampleImage1.png'
 import Home from './Components/Home'
 
@@ -7,6 +8,7 @@ import {BrowserRouter as Router} from "react-router-dom"
 import AppointmentButton from './Components/AppointmentButton';
 
 function App() {
+
   return (
     <Router>
        <header className="App">
@@ -19,7 +21,7 @@ function App() {
           </div>
       </header>
 
-      <Home/>
+      <Home />
       <AppointmentButton/>
 
       

@@ -1,9 +1,20 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import SocialMedia from './SocialMedia'
 
 import './Style/appointment_button.css'
 
 export default function AppointmentButton() {
+
+
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = "https://booksy.com/widget/code.js?id=598651&country=us&lang=en";
+        script.async = true; 
+        document.getElementById('script').appendChild(script);
+    }, []);
+
+
     return (
         <div className="appointment_button">
 
@@ -11,9 +22,9 @@ export default function AppointmentButton() {
                 <SocialMedia/>
             </div>
 
-            <div>
-            <a href="https://booksy.com/en-us/598651_fade-it-barbershop_barber-shop_14721_sun-city"  rel="noreferrer" target="_blank" className="bn3637 bn37">Book Now</a>
+            <div id='script'>
             </div>
+            
             
         </div>
     )
