@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 .appointment_button {
   background-color: #000;
   display: flex;
@@ -41,7 +43,6 @@
     transition: none !important;
     width: inherit !important;
     height: inherit !important;
-    text-align: center;
     
 }
 
@@ -49,10 +50,9 @@
     content: "Book Now";
     color: #000000;
     display: block;
-    font-family: "Bernier Regular", monospace;
+    font-family: 'Reem Kufi', sans-serif;
     font-size: 20px;
-    line-height: 39px;
-    text-align: center;
+    text-align:inherit;
 }
 
 .booksy-widget-container-dialog {
