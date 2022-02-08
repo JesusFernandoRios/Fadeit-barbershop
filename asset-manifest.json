@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Fadeit-barbershop/static/css/main.d6577011.chunk.css",
-    "main.js": "/Fadeit-barbershop/static/js/main.c361164e.chunk.js",
-    "main.js.map": "/Fadeit-barbershop/static/js/main.c361164e.chunk.js.map",
+    "main.css": "/Fadeit-barbershop/static/css/main.52a4ea2d.chunk.css",
+    "main.js": "/Fadeit-barbershop/static/js/main.f3e78f39.chunk.js",
+    "main.js.map": "/Fadeit-barbershop/static/js/main.f3e78f39.chunk.js.map",
     "runtime-main.js": "/Fadeit-barbershop/static/js/runtime-main.3d05cc79.js",
     "runtime-main.js.map": "/Fadeit-barbershop/static/js/runtime-main.3d05cc79.js.map",
     "static/css/2.1935a16d.chunk.css": "/Fadeit-barbershop/static/css/2.1935a16d.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.a679e722.chunk.js.map": "/Fadeit-barbershop/static/js/2.a679e722.chunk.js.map",
     "index.html": "/Fadeit-barbershop/index.html",
     "static/css/2.1935a16d.chunk.css.map": "/Fadeit-barbershop/static/css/2.1935a16d.chunk.css.map",
-    "static/css/main.d6577011.chunk.css.map": "/Fadeit-barbershop/static/css/main.d6577011.chunk.css.map",
+    "static/css/main.52a4ea2d.chunk.css.map": "/Fadeit-barbershop/static/css/main.52a4ea2d.chunk.css.map",
     "static/js/2.a679e722.chunk.js.LICENSE.txt": "/Fadeit-barbershop/static/js/2.a679e722.chunk.js.LICENSE.txt",
     "static/media/SampleImage1.1a4f8cb5.png": "/Fadeit-barbershop/static/media/SampleImage1.1a4f8cb5.png"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.3d05cc79.js",
     "static/css/2.1935a16d.chunk.css",
     "static/js/2.a679e722.chunk.js",
-    "static/css/main.d6577011.chunk.css",
-    "static/js/main.c361164e.chunk.js"
+    "static/css/main.52a4ea2d.chunk.css",
+    "static/js/main.f3e78f39.chunk.js"
   ]
 }
