@@ -8,10 +8,7 @@ import ImageGallery from 'react-image-gallery'
 export default function Home() {
 
     const images = [
-        {
-          original: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/new-image1.jpg',
-          thumbnail: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/new-image1.jpg',
-        },
+
         {
           original: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/new-image2.jpg',
           thumbnail: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/new-image2.jpg',
@@ -23,6 +20,10 @@ export default function Home() {
         {
           original: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/new-image4.jpg',
           thumbnail: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/new-image4.jpg',
+        },
+        {
+          original: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/new-image1.jpg',
+          thumbnail: 'https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/new-image1.jpg',
         },
       ];
 
