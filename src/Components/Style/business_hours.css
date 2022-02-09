@@ -2,7 +2,24 @@
     margin-left: auto;
     margin-right: auto;
     font-family: 'Reem Kufi', sans-serif;
+    display: flex;
+    justify-content: space-evenly; 
+    width: 70%;
+    padding: 2em 0 2em 0;
+
+}
+
+.hours {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
     width: 20%;
+}
+
+.business_image {
+    border-radius: 10px;
+    
 }
 
 .business_hours h2 {
@@ -20,6 +37,17 @@
 
 @media only screen and (max-width: 480px) {
     .business_hours {
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 0 0 2em 0;
+    }
+    .hours {
         width: 90%;
+        padding-bottom: 2em;
+        margin-top: 0;
+    }
+
+    .business_image {
+        border-radius: 0;
     }
 }

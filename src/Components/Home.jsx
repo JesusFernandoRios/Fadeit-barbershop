@@ -31,9 +31,9 @@ export default function Home() {
         <>
         
         <hr/>
-        <ImageGallery items={images} showNav={false} lazyLoad={false} showThumbnails={true} showPlayButton={false} showFullscreenButton={false} />
-        <hr/>
         <BusinessHours/>
+        <hr/>
+        <ImageGallery items={images} showNav={false} lazyLoad={false} showThumbnails={true} showPlayButton={false} showFullscreenButton={false} />
         <hr/>
         <Pricing />
         <hr/>
