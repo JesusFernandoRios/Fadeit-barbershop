@@ -1,6 +1,7 @@
 import React from 'react'
 import barbershopLogo from './Images/SampleImage1.png'
 import Home from './Components/Home'
+import Administrator from './Components/Administrator';
 
 
 import './App.css';
@@ -24,6 +25,7 @@ function App() {
             <p>(623)440-2361</p>
           </div>
       </header>
+      <Administrator/>
 
       <Home />
       <AppointmentButton/>
