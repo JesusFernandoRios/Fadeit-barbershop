@@ -3,7 +3,7 @@ import './Style/social_media.css'
 
 export default function SocialMedia() {
     return (
-        <div class="wrapper">
+        <div className="wrapper">
             
             {/* <div className="social_check">
                 <p>Check us out on</p>

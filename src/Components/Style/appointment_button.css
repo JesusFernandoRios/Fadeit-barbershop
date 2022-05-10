@@ -6,8 +6,6 @@
   justify-content: space-evenly;
   width: 100%;
   position: sticky;
-  bottom: 0;
-  align-items: center;
   
 }
 
@@ -70,4 +68,8 @@
     border-color: transparent;
     background-color: #fff;
     color: #000;
+}
+
+.booksy-widget-container-default .booksy-business-link {
+    background: none !important;
 }

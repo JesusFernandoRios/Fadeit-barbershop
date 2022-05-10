@@ -6,7 +6,7 @@ export default function BusinessHours() {
         <section className="business_hours">
             
 
-            <img className='business_image' src='https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/shop2.jpeg' alt='business image'/>
+            <img className='business_image' src='https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/shop2.jpeg' alt='business Shop'/>
 
             <div className="hours">
 

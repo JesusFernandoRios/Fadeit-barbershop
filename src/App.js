@@ -15,8 +15,6 @@ function App() {
        <header className="App">
           <img className="barber-logo" src={barbershopLogo} alt="Barbershop Logo"/>
 
-            <h3 className='location_information'>The Best Barbershop in Sun City</h3>
-
           <img className="group-image" src="https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/group-pic.jpg" alt="Barbershop Logo"/>
 
           <div className='location_information'>
@@ -25,7 +23,6 @@ function App() {
             <p>(623)440-2361</p>
           </div>
       </header>
-      <Administrator/>
 
       <Home />
       <AppointmentButton/>
