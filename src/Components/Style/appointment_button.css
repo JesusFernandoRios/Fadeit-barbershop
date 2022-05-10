@@ -5,7 +5,9 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  position: sticky;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
   
 }
 
@@ -51,13 +53,12 @@
     font-family: 'Reem Kufi', sans-serif;
     font-size: 20px;
     text-align:inherit;
+    align-items: center;
+    
 }
 
 .booksy-widget-container-dialog {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
     text-decoration: none;
     text-align: center !important;
     color: #fff;
@@ -68,8 +69,15 @@
     border-color: transparent;
     background-color: #fff;
     color: #000;
+    
 }
 
 .booksy-widget-container-default .booksy-business-link {
     background: none !important;
+}
+
+#script {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
