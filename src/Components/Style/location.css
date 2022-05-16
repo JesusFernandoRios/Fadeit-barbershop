@@ -8,7 +8,6 @@
 }
 
 .business_image {
-    border-radius: 10px;
     width: 40%;
 }
 
@@ -23,3 +22,18 @@
 .location_information h1 {
     font-family: 'Satisfy', cursive
   }
+
+  @media only screen and (max-width: 480px) {
+
+    .location {
+        flex-direction: column-reverse;
+    }
+
+    .location_information {
+        font-size: 1rem;
+    }
+  
+    .business_image {
+        width: 100%;
+    }
+}

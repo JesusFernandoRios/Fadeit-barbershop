@@ -9,6 +9,7 @@
 
 .pricing h2 {
     font-family: 'Satisfy', cursive;
+    text-align: center;
 }
 
 .pricing p {
@@ -33,6 +34,7 @@
         padding-left: 5%;
         padding-right: 5%;
         margin: 0;
+        font-size: 1rem;
     }
     .services , .other_services {
         width: 100% !important;

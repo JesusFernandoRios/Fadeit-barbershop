@@ -65,4 +65,12 @@
   .group-image {
     width: 90%;
   }
+
+  .image-hours {
+    flex-direction: column-reverse;
+  }
+
+  .image-gallery {
+    width: 100%;
+  }
 }
