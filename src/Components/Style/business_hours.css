@@ -1,33 +1,17 @@
-.business_hours {
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Reem Kufi', sans-serif;
-    display: flex;
-    justify-content: space-evenly; 
-    width: 70%;
-    padding: 2em 0 2em 0;
-
-}
 
 .hours {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    width: 20%;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 2rem;
+    width: 30%;
 }
 
-.business_image {
-    border-radius: 10px;
-    
-}
-
-.business_hours h2 {
-    text-align: center;
+.hours h2 {
     font-family: 'Satisfy';
+    text-align: center;
 }
 
-.business_hours p {
+.hours p {
     font-family: 'Reem Kufi', sans-serif;
 }
 

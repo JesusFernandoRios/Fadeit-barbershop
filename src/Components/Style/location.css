@@ -1,0 +1,25 @@
+.location {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Reem Kufi', sans-serif;
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 1em 0 1em 0;
+}
+
+.business_image {
+    border-radius: 10px;
+    width: 40%;
+}
+
+.location_information {
+    font-family: 'Reem Kufi', sans-serif;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2rem;
+}
+
+.location_information h1 {
+    font-family: 'Satisfy', cursive
+  }
