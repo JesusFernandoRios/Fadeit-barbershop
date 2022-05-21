@@ -50,17 +50,11 @@ export default function Home() {
           showThumbnails={true} 
           showPlayButton={false} 
           showFullscreenButton={false}
-          originalHeight={10} 
+          originalHeight={10}
+          
           />
           <BusinessHours/>
         </div>
-
-        <video width="100%" height="700" controls>
-
-          <source src='https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Videos/convertedVideo.mp4' type='video/mp4'/>
-
-          Video file not supported
-        </video>
         
         <hr/>
         <Pricing />

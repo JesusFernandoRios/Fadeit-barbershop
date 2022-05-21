@@ -3,12 +3,18 @@
 .appointment_button {
   background-color: #000;
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
+  justify-content: space-between;
   position: fixed;
   bottom: 0;
+  width: 80%;
   align-items: center;
+
   
+}
+
+.social-media-nav {
+    display: flex;
+    flex-direction: row;
 }
 
 /* .bn3637 {
@@ -74,6 +80,10 @@
 
 .booksy-widget-container-default .booksy-business-link {
     background: none !important;
+}
+
+.nav-bar-logo {
+    width: 5%;
 }
 
 #script {
