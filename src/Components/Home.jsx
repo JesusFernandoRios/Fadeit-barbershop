@@ -55,7 +55,12 @@ export default function Home() {
           />
           <BusinessHours/>
         </div>
-        
+        <video width="100%" height="700" controls>
+
+          <source src='https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Videos/convertedVideo.mp4' type='video/mp4'/>
+
+          Video file not supported
+        </video>
         <hr/>
         <Pricing />
         <hr/>
