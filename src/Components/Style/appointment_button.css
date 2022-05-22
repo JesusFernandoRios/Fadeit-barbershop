@@ -3,10 +3,10 @@
 .appointment_button {
   background-color: #000;
   display: flex;
-  justify-content: space-between;
   position: fixed;
+  justify-content: space-evenly;
   bottom: 0;
-  width: 80%;
+  width: 100%;
   align-items: center;
 
   
@@ -82,12 +82,16 @@
     background: none !important;
 }
 
-.nav-bar-logo {
-    width: 5%;
-}
 
 #script {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .appointment_button{
+        width: 90%;
+    }
+
 }

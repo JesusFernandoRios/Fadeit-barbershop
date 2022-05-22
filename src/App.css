@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
   font-family: 'Reem Kufi', sans-serif;
@@ -5,6 +7,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url('./Images/shop-image.jpg');
+  background-repeat: no-repeat ;
+  background-size: cover;
+  height: 100vh;
+  
 }
 
 .barber-logo {
@@ -13,7 +20,7 @@
 
 .group-image {
   border-radius: 10px;
-  width: 60%;
+  width: 50%;
 }
 
 .image-hours {
@@ -58,8 +65,16 @@
 } */
 
 @media only screen and (max-width: 480px) {
+
+  .App {
+    background-image: url("https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/group-pic.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 95vh;
+  }
   .barber-logo {
-    width: 70%;
+    width: 100%;
+    margin-top: none;
   }
 
   .group-image {

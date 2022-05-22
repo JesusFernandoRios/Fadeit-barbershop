@@ -31,6 +31,8 @@
 
     .location_information {
         font-size: 1rem;
+        margin-bottom: 20%;
+        margin-top: none;
     }
   
     .business_image {

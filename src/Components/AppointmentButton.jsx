@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react'
 import SocialMedia from './SocialMedia'
-import barbershopLogo from '../Images/SampleImage1.png'
+import barbershopLogo from '../Images/White-logo.png'
 
 import './Style/appointment_button.css'
 
@@ -18,8 +18,6 @@ export default function AppointmentButton() {
 
     return (
         <div className="appointment_button">
-
-            <img className="nav-bar-logo" src={barbershopLogo} alt="Barbershop Logo"/>  
 
             <div className='social-media-nav'>
                 <SocialMedia/>
