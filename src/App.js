@@ -18,7 +18,7 @@ function App() {
           <div className='location_information'>
                 <h1>Location</h1>
                 <p>13610 N 99th Ave, Sun City, 85351</p>
-                <p>(623)440-2361</p>
+                <a href="tel:623-440-2361">(623)440-2361</a>
           </div>
 
 

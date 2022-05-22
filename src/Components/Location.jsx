@@ -6,7 +6,12 @@ export default function BusinessHours() {
         <section className="location">
             
 
-            <img className='business_image' src='https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Images/shop2.jpeg' alt='business Shop'/>
+            <video width="100%" height="500" autoPlay loop  muted>
+
+                <source src='https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Videos/convertedVideo.mp4' type='video/mp4'/>
+
+                Video file not supported
+            </video>
 
             
         </section>
