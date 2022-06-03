@@ -45,15 +45,14 @@ export default function Home() {
         <div className='image-hours'>
           <ImageGallery 
           items={images} 
-          showNav={false} 
+          showNav={true} 
           lazyLoad={true} 
-          showThumbnails={true} 
+          showThumbnails={false} 
           showPlayButton={false} 
           showFullscreenButton={false}
           originalHeight={10}
           
           />
-          <BusinessHours/>
         </div>
         <hr/>
         <Pricing />

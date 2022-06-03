@@ -1,5 +1,7 @@
 
 .hours {
+    margin-top: auto;
+    margin-bottom: auto;
     display: block;
     font-family: 'Reem Kufi', sans-serif;
     font-size: 1.5vw;

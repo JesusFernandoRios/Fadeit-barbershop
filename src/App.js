@@ -1,7 +1,6 @@
 import React from 'react'
 import barbershopLogo from './Images/White-logo.png'
 import Home from './Components/Home'
-import Administrator from './Components/Administrator';
 
 
 import './App.css';

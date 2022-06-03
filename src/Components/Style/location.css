@@ -4,6 +4,7 @@
     font-family: 'Reem Kufi', sans-serif;
     display: flex;
     justify-content: space-evenly; 
+    width: 90%;
     padding: 1em 0 1em 0;
 }
 
