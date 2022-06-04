@@ -9,7 +9,7 @@ export default function Location() {
             <BusinessHours/>
             
 
-            <video width="50%" height="500" autoPlay loop  muted>
+            <video className='barbershop-gif' width="50%" height="500" autoPlay loop  muted>
 
                 <source src='https://fadeitbarbershop.s3.us-west-2.amazonaws.com/Videos/convertedVideo.mp4' type='video/mp4'/>
 

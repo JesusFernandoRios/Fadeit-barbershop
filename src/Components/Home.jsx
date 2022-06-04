@@ -4,6 +4,7 @@ import Pricing from './Pricing'
 import Safety from './Safety'
 import ImageGallery from 'react-image-gallery'
 import Location from './Location'
+import ImageSlider from './ImageSlider'
 
 
 export default function Home() {
@@ -42,7 +43,7 @@ export default function Home() {
         <hr/>
         <Location/>
         <hr/>
-        <div className='image-hours'>
+        {/* <div className='image-hours'>
           <ImageGallery 
           items={images} 
           showNav={true} 
@@ -53,7 +54,10 @@ export default function Home() {
           originalHeight={10}
           
           />
-        </div>
+
+        
+        </div> */}
+        <ImageSlider/>
         <hr/>
         <Pricing />
         <hr/>
